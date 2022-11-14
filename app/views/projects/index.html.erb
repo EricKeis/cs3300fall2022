@@ -8,6 +8,68 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <p> Put your HTML using Bootstrap CSS</p>
+  <div class="container">
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid navbar-expand">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Account
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Sign In</a></li>
+              <li><a class="dropdown-item" href="#">Sign Up</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1 class="display-5">My Portfolio</h1>
+    <p class="lead">
+      I am Eric Keis, a computer science student currently attending UCCS. You can find more information
+      about my degree 
+      <a href="https://eas.uccs.edu/cs/academics/undergraduate-programs/bachelor-of-science-in-computer-science">
+      here</a>.
+      Outside of programming, I enjoy taking my jeep off-roading and exploring with my doggo.
+    </p>
+
+    <p>Some of my skills</p>
+    <ul class="list-unstyled">
+      <div class="border border-bottom-0 rounded-top p-2">
+        <li>Programming Languages</li>
+          <ul>
+            <li>Javascript</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>Python</li>
+          </ul>
+        </li>
+      </div>
+      <div class="border p-2">
+        <li>Technical Skills</li>
+          <ul>
+            <li>Source and version control using git</li>
+            <li>Software testing and validation</li>
+            <li>RDMS and SQL</li>
+            <li>Object-Oriented Programming</li>
+          </ul>
+        </li>
+      </div>
+      <div class="border border-top-0 rounded-bottom p-2">
+        <li>Soft Skills</li>
+          <ul>
+            <li>Organized and time aware</li>
+            <li>Able to get the job done under pressure</li>
+            <li>Very agile</li>
+            <li>Learn quickly</li>
+          </ul>
+        </li>
+      </div>
+    </ul>
+  </div>
 </body>
 </html>
