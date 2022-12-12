@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
     def index
-        render
+        @projects = Project.all
     end
 end
